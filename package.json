@@ -28,7 +28,11 @@
     "build:prod": "webpack --mode=production --node-env=production",
     "watch": "webpack --watch",
     "serve": "webpack serve",
-    "dev": "npx webpack-dev-server"
+    "dev": "npx webpack-dev-server",
+    "deploy": "gh-pages -d dist"
   },
-  "description": "My webpack project"
+  "description": "My webpack project",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
